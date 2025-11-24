@@ -1,0 +1,496 @@
+{
+  "FormatVersion": "v0.72dev",
+  "Force": "#Force_Slavyane",
+  "Items": [
+    {
+      "Uid": "#UnitConfig_Slavyane_Castle",
+      "Archetype": "#UnitConfig_Slavyane_Castle",
+      "Name": "Замок\n(деревянная эра)",
+      "CostResources": {
+        "Gold": 0,
+        "Metal": 0,
+        "Lumber": 1000,
+        "People": 0
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "ProductionTime": 1200
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Farm",
+      "Archetype": "#UnitConfig_Slavyane_Farm",
+      "Name": "Изба\n(деревянная эра)",
+      "CostResources": {
+        "Gold": 0,
+        "Metal": 0,
+        "Lumber": 50,
+        "People": 0
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "ProductionTime": 420
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Sawmill",
+      "Archetype": "#UnitConfig_Slavyane_Sawmill",
+      "Name": "Лесопилка\n(деревянная эра)",
+      "CostResources": {
+        "Gold": 0,
+        "Metal": 0,
+        "Lumber": 100,
+        "People": 2
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "ProductionTime": 280
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Worker1",
+      "Archetype": "#UnitConfig_Slavyane_Worker1",
+      "Name": "Рабочий\n(деревянная эра)",
+      "CostResources": {
+        "Gold": 0,
+        "Metal": 0,
+        "Lumber": 30,
+        "People": 1
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "ProductionTime": 300
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Mill",
+      "Archetype": "#UnitConfig_Slavyane_Mill",
+      "Name": "Мельница\n(деревянная эра -> эра металлов)",
+      "CostResources": {
+        "Gold": 0,
+        "Metal": 0,
+        "Lumber": 500,
+        "People": 10
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "ProductionTime": 700
+    },
+
+
+    
+    {
+      "Uid": "#UnitConfig_Slavyane_Mine",
+      "Archetype": "#UnitConfig_Slavyane_Mine",
+      "Name": "Шахта\n(эра металлов)",
+      "CostResources": {
+        "Gold": 0,
+        "Metal": 0,
+        "Lumber": 100,
+        "People": 4
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Mill"
+        ]
+      },
+      "ProductionTime": 700
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Fence",
+      "Archetype": "#UnitConfig_Slavyane_Fence",
+      "Name": "Забор\n(эра металлов)",
+      "CostResources": {
+        "Gold": 10,
+        "Metal": 0,
+        "Lumber": 15,
+        "People": 0
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Mill"
+        ]
+      },
+      "ProductionTime": 750
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Bridge",
+      "Archetype": "#UnitConfig_Slavyane_Bridge",
+      "Name": "Мост\n(эра металлов)",
+      "CostResources": {
+        "Gold": 50,
+        "Metal": 0,
+        "Lumber": 50,
+        "People": 0
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Mill"
+        ]
+      },
+      "ProductionTime": 200
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Church",
+      "Archetype": "#UnitConfig_Slavyane_Church",
+      "Name": "Церковь\n(эра металлов -> эра стычек)",
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 500,
+        "People": 20
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Mill"
+        ]
+      },
+      "ProductionTime": 900
+    },
+
+
+    
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Barrack",
+      "Archetype": "#UnitConfig_Slavyane_Barrack",
+      "Name": "Казарма\n(эра стычек)",
+      "CostResources": {
+        "Gold": 300,
+        "Metal": 100,
+        "Lumber": 150,
+        "People": 2
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Church"
+        ]
+      },
+      "ProductionTime": 1000
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Swordmen",
+      "Archetype": "#UnitConfig_Slavyane_Swordmen",
+      "Name": "Рыцарь\n(эра стычек)",
+      "CostResources": {
+        "Gold": 30,
+        "Metal": 40,
+        "Lumber": 0,
+        "People": 1
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Church"
+        ]
+      },
+      "ProductionTime": 150
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer",
+      "Archetype": "#UnitConfig_Slavyane_Archer",
+      "Name": "Лучник\n(эра стычек)",
+      "CostResources": {
+        "Gold": 30,
+        "Metal": 5,
+        "Lumber": 10,
+        "People": 1
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Church"
+        ]
+      },
+      "ProductionTime": 400
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(эра стычек -> эра битв)",
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 1000,
+        "People": 30
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Church"
+        ]
+      },
+      "ProductionTime": 750
+    },
+
+
+
+
+    
+    {
+      "Uid": "#UnitConfig_Slavyane_Stables",
+      "Archetype": "#UnitConfig_Slavyane_Stables",
+      "Name": "Конюшня\n(эра битв)",
+      "CostResources": {
+        "Gold": 400,
+        "Metal": 200,
+        "Lumber": 600,
+        "People": 6
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Labor"
+        ]
+      },
+      "ProductionTime": 1000,
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_2",
+      "Archetype": "#UnitConfig_Slavyane_Archer_2",
+      "Name": "Поджигатель\n(эра битв)",
+      "CostResources": {
+        "Gold": 60,
+        "Metal": 15,
+        "Lumber": 45,
+        "People": 1
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Labor"
+        ]
+      },
+      "ProductionTime": 400,
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 6
+        }
+      },
+      "Shield": 2
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Heavymen",
+      "Archetype": "#UnitConfig_Slavyane_Heavymen",
+      "Name": "Тяжелый рыцарь\n(эра битв)",
+      "CostResources": {
+        "Gold": 70,
+        "Metal": 130,
+        "Lumber": 0,
+        "People": 1
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Labor"
+        ]
+      },
+      "ProductionTime": 600,
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 7
+        }
+      },
+      "Shield": 4
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Raider",
+      "Archetype": "#UnitConfig_Slavyane_Raider",
+      "Name": "Всадник\n(эра битв)",
+      "CostResources": {
+        "Gold": 90,
+        "Metal": 150,
+        "Lumber": 0,
+        "People": 1
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Labor"
+        ]
+      },
+      "ProductionTime": 800,
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 6
+        }
+      },
+      "Shield": 2
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_VsratTower",
+      "Archetype": "#UnitConfig_Slavyane_VsratTower",
+      "Name": "Дозорная башня\n(эра битв)",
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Labor"
+        ]
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 6
+        }
+      },
+      "Shield": 4
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Crossbowman",
+      "Archetype": "#UnitConfig_Slavyane_Crossbowman",
+      "Name": "Самострельщик\n(эра битв)",
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Labor"
+        ]
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 7
+        }
+      },
+      "Shield": 3
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Factory",
+      "Archetype": "#UnitConfig_Slavyane_Factory",
+      "Name": "Завод\n(эра битв -> эра сражений)",
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 1000,
+        "People": 30
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Labor"
+        ]
+      },
+      "ProductionTime": 1000,
+      "Shield": 6
+    },
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Tower",
+      "Archetype": "#UnitConfig_Slavyane_Tower",
+      "Name": "Башня\n(эра сражений)",
+      "CostResources": {
+        "Gold": 300,
+        "Metal": 200,
+        "Lumber": 450,
+        "People": 4
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Factory"
+        ]
+      },
+      "ProductionTime": 1300,
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 11
+        }
+      },
+      "Shield": 7
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Catapult",
+      "Archetype": "#UnitConfig_Slavyane_Catapult",
+      "Name": "Катапульта\n(эра сражений)",
+      "CostResources": {
+        "Gold": 150,
+        "Metal": 200,
+        "Lumber": 150,
+        "People": 1
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Factory"
+        ]
+      },
+      "ProductionTime": 800,
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 10
+        }
+      },
+      "Shield": 7
+    },
+    {
+      "Uid": "#UnitConfig_Mage_Bearmen",
+      "Archetype": "#UnitConfig_Mage_Bearmen",
+      "Name": "Медвежий всадник\n(эра сражений)",
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Factory"
+        ]
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 10
+        }
+      },
+      "Shield": 4
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Blacksmith",
+      "Archetype": "#UnitConfig_Slavyane_Blacksmith",
+      "Name": "Кузница\n(эра сражений -> эра господства)",
+      "CostResources": {
+        "Gold": 2000,
+        "Metal": 2000,
+        "Lumber": 2000,
+        "People": 50
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Factory"
+        ]
+      },
+      "Shield": 4
+    },
+
+    
+    {
+      "Uid": "#UnitConfig_Slavyane_Beamman",
+      "Archetype": "#UnitConfig_Slavyane_Beamman",
+      "Name": "Воин с дубиной\n(эра господства)",
+      "MaxHealth": 400,
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 250,
+        "People": 10
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Blacksmith"
+        ]
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 20
+        }
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Balista",
+      "Archetype": "#UnitConfig_Slavyane_Balista",
+      "Name": "Баллиста\n(эра господства)",
+      "MaxHealth": 300,
+      "CostResources": {
+        "Gold": 500,
+        "Metal": 500,
+        "Lumber": 1000,
+        "People": 10
+      },
+      "TechConfig": {
+        "Requirements": [
+          "#UnitConfig_Slavyane_Blacksmith"
+        ]
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 20
+        },
+        "RangeMin": 1
+      }
+    }
+  ]
+}
