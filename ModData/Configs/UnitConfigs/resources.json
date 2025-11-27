@@ -1,0 +1,279 @@
+{
+  "FormatVersion": "v0.72dev",
+  "Force": "#Force_Slavyane",
+  "Items": [
+    {
+      "Uid": "#UnitConfig_Slavyane_Worker1",
+      "Archetype": "#UnitConfig_Slavyane_Worker1",
+      "Name": "Рабочий\n(I)",
+      "ProfessionParams": {
+        "$chg": {
+          "UnitProducer": {
+            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
+            "CanProduceList": {
+              "$add": [
+                "#UnitConfig_Slavyane_Farm_III",
+
+                "#UnitConfig_Slavyane_Blacksmith_II",
+                "#UnitConfig_Slavyane_Blacksmith_III",
+                "#UnitConfig_Slavyane_Blacksmith_IV",
+
+                "#UnitConfig_Slavyane_Labor_II",
+                "#UnitConfig_Slavyane_Labor_III",
+                "#UnitConfig_Slavyane_Labor_IV",
+
+                "#UnitConfig_Slavyane_Mill_I",
+                "#UnitConfig_Slavyane_Mill_II",
+                "#UnitConfig_Slavyane_Mill_III",
+                "#UnitConfig_Slavyane_Mill_IV",
+
+                "#UnitConfig_Slavyane_Labor_siege_I",
+                "#UnitConfig_Slavyane_Labor_siege_II",
+                "#UnitConfig_Slavyane_Labor_siege_III",
+                "#UnitConfig_Slavyane_Fence_II",
+                "#UnitConfig_Slavyane_Fence_III",
+                "#UnitConfig_Slavyane_Tower_II",
+                "#UnitConfig_Slavyane_Tower_III"
+              ]
+            }
+          }
+        }
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Castle",
+      "Archetype": "#UnitConfig_Slavyane_Castle",
+      "Name": "Замок\n(I)",
+      "ProfessionParams": {
+        "$chg": {
+          "UnitProducer": {
+            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
+            "CanProduceList": {
+              "$add": [
+                "#UnitConfig_Slavyane_Worker1_III"
+              ]
+            }
+          }
+        }
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Farm",
+      "Archetype": "#UnitConfig_Slavyane_Farm",
+      "Name": "Изба\n(I)",
+      "TechConfig": {
+        "Requirements": []
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 1
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Sawmill",
+      "Archetype": "#UnitConfig_Slavyane_Sawmill",
+      "Name": "Лесопилка\n(I)",
+      "TechConfig": {
+        "Requirements": []
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 2
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Mine",
+      "Archetype": "#UnitConfig_Slavyane_Mine",
+      "Name": "Шахта\n(I)",
+      "TechConfig": {
+        "Requirements": []
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 3
+      }
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Mill",
+      "Archetype": "#UnitConfig_Slavyane_Mill",
+      "Name": "Мельница\n(I -> II)",
+      "TechConfig": {
+        "Requirements": []
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 4
+      },
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Barrack",
+      "Archetype": "#UnitConfig_Slavyane_Barrack",
+      "Name": "Казарма\n(II)",
+      "ProfessionParams": {
+        "$chg": {
+          "UnitProducer": {
+            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
+            "CanProduceList": {
+              "$add": [
+                "#UnitConfig_Slavyane_Swordmen_II",
+                "#UnitConfig_Slavyane_Heavymen_II",
+                "#UnitConfig_Slavyane_Beamman_II",
+                "#UnitConfig_Slavyane_Swordmen_III",
+                "#UnitConfig_Slavyane_Heavymen_III",
+                "#UnitConfig_Slavyane_Beamman_III",
+                "#UnitConfig_Slavyane_Swordmen_IV",
+                "#UnitConfig_Slavyane_Heavymen_IV",
+                "#UnitConfig_Slavyane_Beamman_IV",
+
+                "#UnitConfig_Slavyane_Archer_II",
+                "#UnitConfig_Slavyane_Archer_2_II",
+                "#UnitConfig_Slavyane_Crossbowman_II",
+                "#UnitConfig_Slavyane_Archer_III",
+                "#UnitConfig_Slavyane_Archer_2_III",
+                "#UnitConfig_Slavyane_Crossbowman_III",
+                "#UnitConfig_Slavyane_Archer_IV",
+                "#UnitConfig_Slavyane_Archer_2_IV",
+                "#UnitConfig_Slavyane_Crossbowman_IV"
+              ]
+            }
+          }
+        }
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 5
+      },
+      "Shield": 6
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Church",
+      "Archetype": "#UnitConfig_Slavyane_Church",
+      "Name": "Церковь\n(II -> III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 6
+      },
+      "Shield": 8
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Farm_III",
+      "Archetype": "#UnitConfig_Slavyane_Farm",
+      "Name": "Хоромы\n(III)",
+      "ProducedPeople": 10,
+      "CostResources": {
+        "Gold": 75,
+        "Metal": 0,
+        "Lumber": 45,
+        "People": 0
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Church" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 7
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Worker1_III",
+      "Archetype": "#UnitConfig_Slavyane_Worker1",
+      "Name": "Рабочий\n(III)",
+      "ProfessionParams": {
+        "$chg": {
+          "Harvester": {
+            "$type": "HordeClassLibrary::HarvesterProfessionParams",
+            "GoldBagMaxSize":  100,
+            "MetalBagMaxSize": 100,
+            "LogsMaxCount":    2
+          }
+        }
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Church" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 1
+      },
+      "Shield": 4,
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 8
+        }
+      }
+    }
+  ]
+}

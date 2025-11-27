@@ -1,0 +1,434 @@
+{
+  "FormatVersion": "v0.72dev",
+  "Force": "#Force_Slavyane",
+  "Items": [
+    {
+      "Uid": "#UnitConfig_Slavyane_Mill_I",
+      "Archetype": "#UnitConfig_Slavyane_Mill",
+      "Name": "Мельница\n(0 -> I)",
+      "CostResources": {
+        "Gold": 500,
+        "Metal": 500,
+        "Lumber": 500,
+        "People": 10
+      },
+      "TechConfig": {
+        "Requirements": []
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Stables",
+      "Archetype": "#UnitConfig_Slavyane_Stables",
+      "Name": "Конюшня\n(I)",
+      "ProfessionParams": {
+        "$chg": {
+          "UnitProducer": {
+            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
+            "CanProduceList": {
+              "$add": [
+                "#UnitConfig_Slavyane_Raider_II",
+                "#UnitConfig_Mage_Bearmen_II",
+                "#UnitConfig_MountedCrossbowman_MOD_II",
+                "#UnitConfig_Slavyane_Raider_III",
+                "#UnitConfig_Mage_Bearmen_III",
+                "#UnitConfig_MountedCrossbowman_MOD_III",
+                "#UnitConfig_Slavyane_Raider_IV",
+                "#UnitConfig_Mage_Bearmen_IV",
+                "#UnitConfig_MountedCrossbowman_MOD_IV"
+              ]
+            }
+          }
+        }
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 1
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Raider",
+      "Archetype": "#UnitConfig_Slavyane_Raider",
+      "Name": "Всадник\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 0
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Bearmen"
+      ],
+      "Uid": "#UnitConfig_Mage_Bearmen",
+      "Archetype": "#UnitConfig_Mage_Bearmen",
+      "Name": "Медвежий всадник\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 1
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_MountedCrossbowman"
+      ],
+      "Uid": "#UnitConfig_MountedCrossbowman_MOD",
+      "Archetype": "#UnitConfig_MountedCrossbowman_MOD",
+      "Name": "Конный арбалетчик\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 2
+      }
+    },
+    
+
+
+
+
+
+
+
+    
+    {
+      "Uid": "#UnitConfig_Slavyane_Mill_II",
+      "Archetype": "#UnitConfig_Slavyane_Mill",
+      "Name": "Мельница\n(I -> II)",
+      "CostResources": {
+        "Gold": 750,
+        "Metal": 750,
+        "Lumber": 750,
+        "People": 15
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 2
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Raider_II",
+      "Archetype": "#UnitConfig_Slavyane_Raider",
+      "Name": "Всадник\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 0
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 7
+        }
+      },
+      "Shield": 2,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Bearmen"
+      ],
+      "Uid": "#UnitConfig_Mage_Bearmen_II",
+      "Archetype": "#UnitConfig_Mage_Bearmen",
+      "Name": "Медвежий всадник\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 1
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 8
+        }
+      },
+      "Shield": 2,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_MountedCrossbowman"
+      ],
+      "Uid": "#UnitConfig_MountedCrossbowman_MOD_II",
+      "Archetype": "#UnitConfig_MountedCrossbowman_MOD",
+      "Name": "Конный арбалетчик\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 2
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 7
+        }
+      },
+      "Shield": 2,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+    
+
+
+
+
+
+
+
+    
+    {
+      "Uid": "#UnitConfig_Slavyane_Mill_III",
+      "Archetype": "#UnitConfig_Slavyane_Mill",
+      "Name": "Мельница\n(II -> III)",
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 1000,
+        "People": 20
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 3
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "Shield": 8
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Raider_III",
+      "Archetype": "#UnitConfig_Slavyane_Raider",
+      "Name": "Всадник\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 0
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 9
+        }
+      },
+      "Shield": 4,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Bearmen"
+      ],
+      "Uid": "#UnitConfig_Mage_Bearmen_III",
+      "Archetype": "#UnitConfig_Mage_Bearmen",
+      "Name": "Медвежий всадник\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 1
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 10
+        }
+      },
+      "Shield": 4,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_MountedCrossbowman"
+      ],
+      "Uid": "#UnitConfig_MountedCrossbowman_MOD_III",
+      "Archetype": "#UnitConfig_MountedCrossbowman_MOD",
+      "Name": "Конный арбалетчик\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 2
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 9
+        }
+      },
+      "Shield": 4,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+    
+
+
+
+
+
+
+
+    
+    {
+      "Uid": "#UnitConfig_Slavyane_Mill_IV",
+      "Archetype": "#UnitConfig_Slavyane_Mill",
+      "Name": "Мельница\n(III -> IV)",
+      "CostResources": {
+        "Gold": 1500,
+        "Metal": 1500,
+        "Lumber": 1500,
+        "People": 30
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 4
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      },
+      "Shield": 10
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Raider_IV",
+      "Archetype": "#UnitConfig_Slavyane_Raider",
+      "Name": "Всадник\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 0
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 11
+        }
+      },
+      "Shield": 6,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Bearmen"
+      ],
+      "Uid": "#UnitConfig_Mage_Bearmen_IV",
+      "Archetype": "#UnitConfig_Mage_Bearmen",
+      "Name": "Медвежий всадник\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 1
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 12
+        }
+      },
+      "Shield": 6,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_MountedCrossbowman"
+      ],
+      "Uid": "#UnitConfig_MountedCrossbowman_MOD_IV",
+      "Archetype": "#UnitConfig_MountedCrossbowman_MOD",
+      "Name": "Конный арбалетчик\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 2
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 11
+        }
+      },
+      "Shield": 6,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    }
+  ]
+}

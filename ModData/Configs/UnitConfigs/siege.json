@@ -1,0 +1,373 @@
+{
+  "FormatVersion": "v0.72dev",
+  "Force": "#Force_Slavyane",
+  "Items": [
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor_siege_I",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(0 -> I)",
+      "CostResources": {
+        "Gold": 500,
+        "Metal": 500,
+        "Lumber": 500,
+        "People": 10
+      },
+      "TechConfig": {
+        "Requirements": [ ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Factory",
+      "Archetype": "#UnitConfig_Slavyane_Factory",
+      "Name": "Завод\n(I)",
+      "ProfessionParams": {
+        "$chg": {
+          "UnitProducer": {
+            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
+            "CanProduceList": {
+              "$add": [
+                "#UnitConfig_Slavyane_Catapult_I",
+                "#UnitConfig_Slavyane_Balista_I",
+                "#UnitConfig_Slavyane_Catapult_II",
+                "#UnitConfig_Slavyane_Balista_II",
+                "#UnitConfig_Slavyane_Catapult_III",
+                "#UnitConfig_Slavyane_Balista_III"
+              ]
+            }
+          }
+        }
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 1
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_VsratTower"
+      ],
+      "Uid": "#UnitConfig_Slavyane_VsratTower",
+      "Archetype": "#UnitConfig_Slavyane_VsratTower",
+      "Name": "Дозорная башня\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 2
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Bridge",
+      "Archetype": "#UnitConfig_Slavyane_Bridge",
+      "Name": "Мост\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 3
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Fence",
+      "Archetype": "#UnitConfig_Slavyane_Fence",
+      "Name": "Забор\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 4
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Tower",
+      "Archetype": "#UnitConfig_Slavyane_Tower",
+      "Name": "Башня\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 5
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Catapult",
+      "Archetype": "#UnitConfig_Slavyane_Catapult",
+      "Name": "Катапульта\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Balista",
+      "Archetype": "#UnitConfig_Slavyane_Balista",
+      "Name": "Баллиста\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 1
+      }
+    },
+
+
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor_siege_II",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(I -> II)",
+      "CostResources": {
+        "Gold": 750,
+        "Metal": 750,
+        "Lumber": 750,
+        "People": 15
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 6
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Fence_II",
+      "Archetype": "#UnitConfig_Slavyane_Fence",
+      "Name": "Забор\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 7
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Tower_II",
+      "Archetype": "#UnitConfig_Slavyane_Tower",
+      "Name": "Башня\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 8
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 6
+        }
+      },
+      "Shield": 5
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Catapult_II",
+      "Archetype": "#UnitConfig_Slavyane_Catapult",
+      "Name": "Катапульта\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 0
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 8
+        }
+      },
+      "Shield": 5
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Balista_II",
+      "Archetype": "#UnitConfig_Slavyane_Balista",
+      "Name": "Баллиста\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 1
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 12
+        }
+      },
+      "Shield": 5
+    },
+
+
+
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor_siege_III",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(II -> III)",
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 1000,
+        "People": 20
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 9
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "Shield": 8
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Fence_III",
+      "Archetype": "#UnitConfig_Slavyane_Fence",
+      "Name": "Забор\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 10
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "Shield": 8
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Tower_III",
+      "Archetype": "#UnitConfig_Slavyane_Tower",
+      "Name": "Башня\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 4,
+        "Y": 11
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 8
+        }
+      },
+      "Shield": 7
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Catapult_III",
+      "Archetype": "#UnitConfig_Slavyane_Catapult",
+      "Name": "Катапульта\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 0
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 10
+        }
+      },
+      "Shield": 7
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Balista_III",
+      "Archetype": "#UnitConfig_Slavyane_Balista",
+      "Name": "Баллиста\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 1
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 14
+        }
+      },
+      "Shield": 7
+    }
+  ]
+}

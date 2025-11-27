@@ -2,7 +2,7 @@
 
 :: === VARIABLES ===============================================
 
-set MOD_NAME=DeepDevelopment
+set MOD_NAME=zDeepDevelopment
 
 :: === SETUP ===================================================
 

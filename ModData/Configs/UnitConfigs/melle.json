@@ -1,0 +1,393 @@
+{
+  "FormatVersion": "v0.72dev",
+  "Force": "#Force_Slavyane",
+  "Items": [
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_BlacksmithMod"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Blacksmith",
+      "Archetype": "#UnitConfig_Slavyane_Blacksmith",
+      "Name": "Кузница\n(0 -> I)",
+      "CostResources": {
+        "Gold": 500,
+        "Metal": 500,
+        "Lumber": 500,
+        "People": 10
+      },
+      "TechConfig": {
+        "Requirements": [ ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Swordmen",
+      "Archetype": "#UnitConfig_Slavyane_Swordmen",
+      "Name": "Рыцарь\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Heavymen",
+      "Archetype": "#UnitConfig_Slavyane_Heavymen",
+      "Name": "Тяжелый рыцарь\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 1
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Beamman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Beamman",
+      "Archetype": "#UnitConfig_Slavyane_Beamman",
+      "Name": "Воин с дубиной\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 2
+      }
+    },
+
+
+
+
+
+    
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_BlacksmithMod"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Blacksmith_II",
+      "Archetype": "#UnitConfig_Slavyane_Blacksmith",
+      "Name": "Кузница\n(I -> II)",
+      "CostResources": {
+        "Gold": 750,
+        "Metal": 750,
+        "Lumber": 750,
+        "People": 15
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith" ]
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 1
+      },
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Swordmen_II",
+      "Archetype": "#UnitConfig_Slavyane_Swordmen",
+      "Name": "Рыцарь\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 0
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 7
+        }
+      },
+      "Shield": 2,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Heavymen_II",
+      "Archetype": "#UnitConfig_Slavyane_Heavymen",
+      "Name": "Тяжелый рыцарь\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 1
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 7
+        }
+      },
+      "Shield": 4,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Beamman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Beamman_II",
+      "Archetype": "#UnitConfig_Slavyane_Beamman",
+      "Name": "Воин с дубиной\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 2
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 8
+        }
+      },
+      "Shield": 3,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+
+
+
+
+
+    
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_BlacksmithMod"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Blacksmith_III",
+      "Archetype": "#UnitConfig_Slavyane_Blacksmith",
+      "Name": "Кузница\n(II -> III)",
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 1000,
+        "People": 20
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_II" ]
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 2
+      },
+      "Shield": 8
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Swordmen_III",
+      "Archetype": "#UnitConfig_Slavyane_Swordmen",
+      "Name": "Рыцарь\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 0
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 9
+        }
+      },
+      "Shield": 4,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Heavymen_III",
+      "Archetype": "#UnitConfig_Slavyane_Heavymen",
+      "Name": "Тяжелый рыцарь\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 1
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 9
+        }
+      },
+      "Shield": 6,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Beamman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Beamman_III",
+      "Archetype": "#UnitConfig_Slavyane_Beamman",
+      "Name": "Воин с дубиной\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 2
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 10
+        }
+      },
+      "Shield": 5,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+
+
+
+
+
+    
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_BlacksmithMod"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Blacksmith_IV",
+      "Archetype": "#UnitConfig_Slavyane_Blacksmith",
+      "Name": "Кузница\n(III -> IV)",
+      "CostResources": {
+        "Gold": 1500,
+        "Metal": 1500,
+        "Lumber": 1500,
+        "People": 30
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_III" ]
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 3
+      },
+      "Shield": 10
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Swordmen_IV",
+      "Archetype": "#UnitConfig_Slavyane_Swordmen",
+      "Name": "Рыцарь\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 0
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 11
+        }
+      },
+      "Shield": 6,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Heavymen_IV",
+      "Archetype": "#UnitConfig_Slavyane_Heavymen",
+      "Name": "Тяжелый рыцарь\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 1
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 11
+        }
+      },
+      "Shield": 8,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Beamman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Beamman_IV",
+      "Archetype": "#UnitConfig_Slavyane_Beamman",
+      "Name": "Воин с дубиной\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Blacksmith_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 2
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 12
+        }
+      },
+      "Shield": 7,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "FormatVersion": "v0.72dev",
+  "Force": "#Force_Slavyane",
+  "Items": [
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(0 -> I)",
+      "CostResources": {
+        "Gold": 500,
+        "Metal": 500,
+        "Lumber": 500,
+        "People": 10
+      },
+      "TechConfig": {
+        "Requirements": [ ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 0
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer",
+      "Archetype": "#UnitConfig_Slavyane_Archer",
+      "Name": "Лучник\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 3
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_2",
+      "Archetype": "#UnitConfig_Slavyane_Archer_2",
+      "Name": "Поджигатель\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 4
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Crossbowman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Crossbowman",
+      "Archetype": "#UnitConfig_Slavyane_Crossbowman",
+      "Name": "Самострельщик\n(I)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 5
+      }
+    },
+
+
+
+
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor_II",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(I -> II)",
+      "CostResources": {
+        "Gold": 750,
+        "Metal": 750,
+        "Lumber": 750,
+        "People": 15
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor" ]
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 1
+      },
+      "Shield": 6
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_II",
+      "Archetype": "#UnitConfig_Slavyane_Archer",
+      "Name": "Лучник\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 3
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 6
+        }
+      },
+      "Shield": 2,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_2_II",
+      "Archetype": "#UnitConfig_Slavyane_Archer_2",
+      "Name": "Поджигатель\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 4
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 6
+        }
+      },
+      "Shield": 2,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Crossbowman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Crossbowman_II",
+      "Archetype": "#UnitConfig_Slavyane_Crossbowman",
+      "Name": "Самострельщик\n(II)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_II" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 1,
+        "Y": 5
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 7
+        }
+      },
+      "Shield": 3,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 200,
+        "B": 100
+      }
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor_III",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(II -> III)",
+      "CostResources": {
+        "Gold": 1000,
+        "Metal": 1000,
+        "Lumber": 1000,
+        "People": 20
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_II" ]
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 2
+      },
+      "Shield": 8
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_III",
+      "Archetype": "#UnitConfig_Slavyane_Archer",
+      "Name": "Лучник\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 3
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 8
+        }
+      },
+      "Shield": 4,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_2_III",
+      "Archetype": "#UnitConfig_Slavyane_Archer_2",
+      "Name": "Поджигатель\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 4
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 8
+        }
+      },
+      "Shield": 4,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Crossbowman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Crossbowman_III",
+      "Archetype": "#UnitConfig_Slavyane_Crossbowman",
+      "Name": "Самострельщик\n(III)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_III" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 5
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 9
+        }
+      },
+      "Shield": 5,
+      "TintColor": {
+        "A": 255,
+        "R": 100,
+        "G": 100,
+        "B": 200
+      }
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "Uid": "#UnitConfig_Slavyane_Labor_IV",
+      "Archetype": "#UnitConfig_Slavyane_Labor",
+      "Name": "Лаборатория\n(III -> IV)",
+      "CostResources": {
+        "Gold": 1500,
+        "Metal": 1500,
+        "Lumber": 1500,
+        "People": 30
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_III" ]
+      },
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      },
+      "PreferredProductListPosition": {
+        "X": 2,
+        "Y": 3
+      },
+      "Shield": 10
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_IV",
+      "Archetype": "#UnitConfig_Slavyane_Archer",
+      "Name": "Лучник\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 3
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 10
+        }
+      },
+      "Shield": 6,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Archer_2_IV",
+      "Archetype": "#UnitConfig_Slavyane_Archer_2",
+      "Name": "Поджигатель\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 4
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 10
+        }
+      },
+      "Shield": 6,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    },
+    {
+      "ContentPackRequirements": [
+        "#ContentPack_Crossbowman"
+      ],
+      "Uid": "#UnitConfig_Slavyane_Crossbowman_IV",
+      "Archetype": "#UnitConfig_Slavyane_Crossbowman",
+      "Name": "Самострельщик\n(IV)",
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Labor_IV" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 3,
+        "Y": 5
+      },
+      "MainArmament": {
+        "ShotParams": {
+          "Damage": 11
+        }
+      },
+      "Shield": 7,
+      "TintColor": {
+        "A": 255,
+        "R": 200,
+        "G": 100,
+        "B": 100
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "Uid": "#ContentPack_zDeepDevelopment",
   "DisplayName": "Глубокая система развития",
-  "Description": "Полностью изменяет систему развития для Славян!",
+  "Description": "Полностью изменяет систему развития для Славян! Поддерживает моды: самострельщик, медвежий всадник, конный арбалетчик, дозорная башня. Не поддерживает: систему опыта. Плохо поддерживает: Mara.",
   "Authors": "Dikysa",
   "BuiltIn": false,
   "StandAlone": false,
   "GameVersion": "0.79pre",
-  "ModVersion": "0.02"
+  "ModVersion": "0.03"
 }
