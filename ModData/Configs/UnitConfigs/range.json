@@ -24,6 +24,7 @@
       "Uid": "#UnitConfig_Slavyane_Archer",
       "Archetype": "#UnitConfig_Slavyane_Archer",
       "Name": "Лучник\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Labor" ]
       },
@@ -36,6 +37,7 @@
       "Uid": "#UnitConfig_Slavyane_Archer_2",
       "Archetype": "#UnitConfig_Slavyane_Archer_2",
       "Name": "Поджигатель\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Labor" ]
       },
@@ -51,6 +53,7 @@
       "Uid": "#UnitConfig_Slavyane_Crossbowman",
       "Archetype": "#UnitConfig_Slavyane_Crossbowman",
       "Name": "Самострельщик\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Labor" ]
       },

@@ -21,41 +21,10 @@
       }
     },
     {
-      "Uid": "#UnitConfig_Slavyane_Stables",
-      "Archetype": "#UnitConfig_Slavyane_Stables",
-      "Name": "Конюшня\n(I)",
-      "ProfessionParams": {
-        "$chg": {
-          "UnitProducer": {
-            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
-            "CanProduceList": {
-              "$add": [
-                "#UnitConfig_Slavyane_Raider_II",
-                "#UnitConfig_Mage_Bearmen_II",
-                "#UnitConfig_MountedCrossbowman_MOD_II",
-                "#UnitConfig_Slavyane_Raider_III",
-                "#UnitConfig_Mage_Bearmen_III",
-                "#UnitConfig_MountedCrossbowman_MOD_III",
-                "#UnitConfig_Slavyane_Raider_IV",
-                "#UnitConfig_Mage_Bearmen_IV",
-                "#UnitConfig_MountedCrossbowman_MOD_IV"
-              ]
-            }
-          }
-        }
-      },
-      "TechConfig": {
-        "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
-      },
-      "PreferredProductListPosition": {
-        "X": 3,
-        "Y": 1
-      }
-    },
-    {
       "Uid": "#UnitConfig_Slavyane_Raider",
       "Archetype": "#UnitConfig_Slavyane_Raider",
       "Name": "Всадник\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
       },
@@ -71,6 +40,7 @@
       "Uid": "#UnitConfig_Mage_Bearmen",
       "Archetype": "#UnitConfig_Mage_Bearmen",
       "Name": "Медвежий всадник\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
       },
@@ -86,6 +56,7 @@
       "Uid": "#UnitConfig_MountedCrossbowman_MOD",
       "Archetype": "#UnitConfig_MountedCrossbowman_MOD",
       "Name": "Конный арбалетчик\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Mill_I" ]
       },

@@ -21,41 +21,13 @@
       }
     },
     {
-      "Uid": "#UnitConfig_Slavyane_Factory",
-      "Archetype": "#UnitConfig_Slavyane_Factory",
-      "Name": "Завод\n(I)",
-      "ProfessionParams": {
-        "$chg": {
-          "UnitProducer": {
-            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
-            "CanProduceList": {
-              "$add": [
-                "#UnitConfig_Slavyane_Catapult_I",
-                "#UnitConfig_Slavyane_Balista_I",
-                "#UnitConfig_Slavyane_Catapult_II",
-                "#UnitConfig_Slavyane_Balista_II",
-                "#UnitConfig_Slavyane_Catapult_III",
-                "#UnitConfig_Slavyane_Balista_III"
-              ]
-            }
-          }
-        }
-      },
-      "TechConfig": {
-        "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
-      },
-      "PreferredProductListPosition": {
-        "X": 4,
-        "Y": 1
-      }
-    },
-    {
       "ContentPackRequirements": [
         "#ContentPack_VsratTower"
       ],
       "Uid": "#UnitConfig_Slavyane_VsratTower",
       "Archetype": "#UnitConfig_Slavyane_VsratTower",
       "Name": "Дозорная башня\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
       },
@@ -92,6 +64,7 @@
       "Uid": "#UnitConfig_Slavyane_Tower",
       "Archetype": "#UnitConfig_Slavyane_Tower",
       "Name": "Башня\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
       },
@@ -104,6 +77,7 @@
       "Uid": "#UnitConfig_Slavyane_Catapult",
       "Archetype": "#UnitConfig_Slavyane_Catapult",
       "Name": "Катапульта\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
       },
@@ -116,6 +90,7 @@
       "Uid": "#UnitConfig_Slavyane_Balista",
       "Archetype": "#UnitConfig_Slavyane_Balista",
       "Name": "Баллиста\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Labor_siege_I" ]
       },

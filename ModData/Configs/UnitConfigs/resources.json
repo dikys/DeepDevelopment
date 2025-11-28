@@ -181,6 +181,67 @@
       },
       "Shield": 6
     },
+    {
+      "Uid": "#UnitConfig_Slavyane_Stables",
+      "Archetype": "#UnitConfig_Slavyane_Stables",
+      "Name": "Конюшня\n(I)",
+      "ProfessionParams": {
+        "$chg": {
+          "UnitProducer": {
+            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
+            "CanProduceList": {
+              "$add": [
+                "#UnitConfig_Slavyane_Raider_II",
+                "#UnitConfig_Mage_Bearmen_II",
+                "#UnitConfig_MountedCrossbowman_MOD_II",
+                "#UnitConfig_Slavyane_Raider_III",
+                "#UnitConfig_Mage_Bearmen_III",
+                "#UnitConfig_MountedCrossbowman_MOD_III",
+                "#UnitConfig_Slavyane_Raider_IV",
+                "#UnitConfig_Mage_Bearmen_IV",
+                "#UnitConfig_MountedCrossbowman_MOD_IV"
+              ]
+            }
+          }
+        }
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 6
+      }
+    },
+    {
+      "Uid": "#UnitConfig_Slavyane_Factory",
+      "Archetype": "#UnitConfig_Slavyane_Factory",
+      "Name": "Завод\n(I)",
+      "ProfessionParams": {
+        "$chg": {
+          "UnitProducer": {
+            "$type": "HordeClassLibrary::UnitProducerProfessionParams",
+            "CanProduceList": {
+              "$add": [
+                "#UnitConfig_Slavyane_Catapult_I",
+                "#UnitConfig_Slavyane_Balista_I",
+                "#UnitConfig_Slavyane_Catapult_II",
+                "#UnitConfig_Slavyane_Balista_II",
+                "#UnitConfig_Slavyane_Catapult_III",
+                "#UnitConfig_Slavyane_Balista_III"
+              ]
+            }
+          }
+        }
+      },
+      "TechConfig": {
+        "Requirements": [ "#UnitConfig_Slavyane_Mill" ]
+      },
+      "PreferredProductListPosition": {
+        "X": 0,
+        "Y": 7
+      }
+    },
 
 
 
@@ -211,7 +272,7 @@
       },
       "PreferredProductListPosition": {
         "X": 0,
-        "Y": 6
+        "Y": 8
       },
       "Shield": 8
     },
@@ -231,7 +292,7 @@
       },
       "PreferredProductListPosition": {
         "X": 0,
-        "Y": 7
+        "Y": 9
       },
       "TintColor": {
         "A": 255,

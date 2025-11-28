@@ -27,6 +27,7 @@
       "Uid": "#UnitConfig_Slavyane_Swordmen",
       "Archetype": "#UnitConfig_Slavyane_Swordmen",
       "Name": "Рыцарь\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Blacksmith" ]
       },
@@ -39,6 +40,7 @@
       "Uid": "#UnitConfig_Slavyane_Heavymen",
       "Archetype": "#UnitConfig_Slavyane_Heavymen",
       "Name": "Тяжелый рыцарь\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Blacksmith" ]
       },
@@ -54,6 +56,7 @@
       "Uid": "#UnitConfig_Slavyane_Beamman",
       "Archetype": "#UnitConfig_Slavyane_Beamman",
       "Name": "Воин с дубиной\n(I)",
+      "Description": "Здоровье {MaxHealth}\nЗащита {Shield}\nАтака {MainArmament.ShotParams.Damage}\nРадиус атаки {MainArmament.Range} (в лесу {MainArmament.ForestRange})\nЗрение {Sight} (в лесу {ForestVision})",
       "TechConfig": {
         "Requirements": [ "#UnitConfig_Slavyane_Blacksmith" ]
       },
